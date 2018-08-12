@@ -1,0 +1,11 @@
+[package]
+name = "ccdb_watch"
+version = "0.1.0"
+authors = ["Christopher Patton <chpatton013@gmail.com>"]
+build = "build.rs"
+
+[dependencies]
+derive-new = "0.5"
+failure = "0.1"
+libc = "*"
+fswatch = "0.1.10"
